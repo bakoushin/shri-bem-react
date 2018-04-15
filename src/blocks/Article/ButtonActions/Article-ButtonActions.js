@@ -1,4 +1,4 @@
-import { decl } from 'bem-react-core';
+import {decl} from 'bem-react-core';
 
 import 'b:Button';
 
@@ -17,7 +17,7 @@ export default decl({
       mods: {type: 'actions'}
     };
   },
-  mods({ type }) {
-    return { ...this.__base(...arguments), type };
+  mods({type}) {
+    return {...this.__base(...arguments), type};
   }
 });

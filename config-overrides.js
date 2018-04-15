@@ -6,4 +6,4 @@ module.exports = function override(config, env) {
   return rewireBemSets({
     techs: ['js', 'css']
   })(config, env);
-}
+};

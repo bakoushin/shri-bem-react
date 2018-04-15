@@ -19,10 +19,13 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "babel-plugin-bem-import": "1.5.3",
+    "eslint-config-yandex": "^1.0.6",
+    "eslint-plugin-import": "^2.11.0",
     "jest-cli": "22.4.3",
     "rewire-bem-sets": "1.0.1"
   },

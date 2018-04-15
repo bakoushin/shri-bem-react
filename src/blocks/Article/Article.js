@@ -1,4 +1,4 @@
-import { decl } from 'bem-react-core';
+import {decl} from 'bem-react-core';
 
 import 'm:type=text';
 import 'm:type=small';

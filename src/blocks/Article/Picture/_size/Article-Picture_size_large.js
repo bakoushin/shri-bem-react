@@ -1,8 +1,8 @@
 import React from 'react';
-import { declMod } from 'bem-react-core';
+import {declMod} from 'bem-react-core';
 
-export default declMod({ size : 'large' }, {
-  block : 'Article',
+export default declMod({size: 'large'}, {
+  block: 'Article',
   elem: 'Picture',
   content({src, alt}) {
     const [file, ext] = src.split('.');
