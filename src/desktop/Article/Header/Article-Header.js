@@ -8,10 +8,10 @@ export default decl({
   mods({size}) {
     return {...this.__base(...arguments), size};
   },
-  content({text, color}) {
+  content({text, color, size}) {
     return (
       <Bem elem="HeaderWrapper">
-        <Bem elem="HeaderText" mods={{size: this.props.size}} tag="h2" style={{color}}>
+        <Bem elem="HeaderText" mods={{size}} tag="h2" style={{color}}>
           {text}
         </Bem>
       </Bem>

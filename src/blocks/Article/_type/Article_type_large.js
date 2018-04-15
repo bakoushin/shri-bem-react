@@ -9,15 +9,15 @@ import ButtonActions from 'e:ButtonActions';
 
 export default declMod({type: 'large'}, {
     block: 'Article',
-    content() {
+    content({title, titleColor, image, description}) {
       return (
         <Fragment>
-          <Header size="large" text={this.props.title} color={this.props.titleColor}/>
+          <Header size="large" text={title} color={titleColor}/>
           <Bem elem="PictureContainer">
-            <Picture size="large" src={this.props.image} alt={this.props.title}/>
+            <Picture size="large" src={image} alt={title}/>
             <ButtonActions type="large" />
           </Bem>
-          <Text size="large" text={this.props.description}/>
+          <Text size="large" text={description}/>
           <ButtonLike type="large"/>
         </Fragment>
       );

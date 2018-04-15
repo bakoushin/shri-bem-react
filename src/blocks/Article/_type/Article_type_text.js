@@ -8,12 +8,12 @@ import ButtonActions from 'e:ButtonActions';
 
 export default declMod({type: 'text'}, {
     block: 'Article',
-    content() {
+    content({title, titleColor, description, channelName}) {
       return (
         <Fragment>
-          <Header size="small" text={this.props.title} color={this.props.titleColor}/>
-          <Text size="small" text={this.props.description}/>
-          <Bem elem="Channel">{this.props.channelName}</Bem>
+          <Header size="small" text={title} color={titleColor}/>
+          <Text size="small" text={description}/>
+          <Bem elem="Channel">{channelName}</Bem>
           <ButtonActions type="text" />
           <ButtonLike type="text"/>
         </Fragment>

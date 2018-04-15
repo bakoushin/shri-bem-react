@@ -4,8 +4,8 @@ import { declMod } from 'bem-react-core';
 export default declMod({ size : 'small' }, {
   block : 'Article',
   elem: 'Picture',
-  content() {
-    const [file, ext] = this.props.src.split('.');
+  content({src, alt}) {
+    const [file, ext] = src.split('.');
     return (
       <img
         srcSet={`
@@ -17,8 +17,8 @@ export default declMod({ size : 'small' }, {
           (min-width: 780px) calc((704px - 16px * 2) / 3 ),
           (min-width: 580px) calc((100vw - 16px * 3) / 2),
           calc(100vw - 16px * 2)"
-        src={this.props.src}
-        alt={this.props.alt}
+        src={src}
+        alt={alt}
       />
     );
   }
