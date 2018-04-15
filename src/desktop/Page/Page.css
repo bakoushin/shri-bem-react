@@ -1,15 +1,11 @@
 @media screen and (min-width: 780px) {
-
   html {
     font-size: 14px;
   }
-  
 }
 
 @media screen and (min-width: 1200px) {
-
   html {
     font-size: 18px;
   }
-
 }

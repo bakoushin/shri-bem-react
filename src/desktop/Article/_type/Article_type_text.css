@@ -1,16 +1,12 @@
 @media screen and (min-width: 780px) {
-
   .Article_type_text {
     grid-column: span 2;
     height: 234px;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
-
   .Article_type_text {
     height: 270px;
   }
-
 }

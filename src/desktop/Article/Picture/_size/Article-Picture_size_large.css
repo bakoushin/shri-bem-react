@@ -1,5 +1,4 @@
 @media screen and (min-width: 780px) {
-
   .Article-Picture_size_large {
     height: 100%;
   }
@@ -9,5 +8,4 @@
     grid-row: span 2;
     order: -1;
   }
-
 }

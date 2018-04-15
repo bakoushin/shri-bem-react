@@ -1,7 +1,5 @@
 @media screen and (min-width: 580px) {
-
   .Article_type_large {
     grid-column: 1 / -1;
   }
-
 }

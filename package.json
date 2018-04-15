@@ -20,14 +20,18 @@
     "build": "react-app-rewired build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint .",
+    "stylelint": "stylelint \"./src/**/*.css\""
   },
   "devDependencies": {
     "babel-plugin-bem-import": "1.5.3",
     "eslint-config-yandex": "^1.0.6",
     "eslint-plugin-import": "^2.11.0",
     "jest-cli": "22.4.3",
-    "rewire-bem-sets": "1.0.1"
+    "rewire-bem-sets": "1.0.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "jest": {
     "transform": {

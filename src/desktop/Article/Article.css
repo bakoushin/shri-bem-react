@@ -1,5 +1,4 @@
 @media screen and (min-width: 780px) {
-
   .Article-Column {
     grid-column: span 2;
     position: relative;
@@ -7,13 +6,10 @@
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
-  
   .Article-Wrapper {
     height: 280px;
   }
-
 }

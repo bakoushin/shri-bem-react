@@ -1,7 +1,5 @@
 @media screen and (min-width: 780px) {
-
   .Article-Header_size_large {
     grid-column: span 2;
-  } 
-
+  }
 }
