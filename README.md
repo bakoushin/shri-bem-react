@@ -21,4 +21,4 @@ https://shri-bem-react.herokuapp.com/
 
 Сервер проверяет заголовок User-Agent и в зависимости от него отдаёт соответствующий бандл (используется пакет [express-useragent](https://www.npmjs.com/package/express-useragent)). Пример работы сервера – в [демо](https://shri-bem-react.herokuapp.com/).
 
-Проверить в действии можно с помощью Google Chrome в режиме `Device Mode`. Для iPhone или Pixel сервер отдает вёрстку для мобильных, а для iPad – верстку для планшетов.
+Проверить в действии можно с помощью Google Chrome в режиме `Device Mode`. Для iPhone или Pixel сервер отдает вёрстку для мобильных, а для iPad – вёрстку для планшетов.
