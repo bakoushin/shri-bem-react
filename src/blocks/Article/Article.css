@@ -1,0 +1,17 @@
+.Article {
+  position: relative;
+}
+
+.Article-Wrapper {
+  position: relative;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Article-Channel {
+  margin: 18px 2px;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.45;
+}

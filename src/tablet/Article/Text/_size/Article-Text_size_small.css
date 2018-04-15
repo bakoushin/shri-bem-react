@@ -1,0 +1,8 @@
+@media screen and (min-width: 580px) {
+
+  .Article-Text_size_small {
+    max-height: initial;
+    margin-bottom: .5rem;
+  }
+
+}

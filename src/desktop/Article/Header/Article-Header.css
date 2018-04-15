@@ -1,0 +1,16 @@
+@media screen and (min-width: 780px) {
+
+  .Article-Header_size_large {
+    grid-column: span 2;
+  } 
+   
+  .Article-HeaderText_size_small {
+    font-family: 'YS Text', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-height: 4.32rem;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+}

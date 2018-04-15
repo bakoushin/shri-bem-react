@@ -1,0 +1,19 @@
+@media screen and (min-width: 780px) {
+
+  .Article_type_large {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 16px;
+    height: 243px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Article_type_large {
+    height: 280px;
+  }
+
+}

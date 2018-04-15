@@ -1,0 +1,16 @@
+@media screen and (min-width: 780px) {
+
+  .Article_type_medium {
+    grid-column: span 3;
+    height: 306px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Article_type_medium {
+    height: 366px;
+  }
+
+}

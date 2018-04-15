@@ -1,0 +1,30 @@
+.Article-Picture {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 4px;
+  height: 100%;  
+}
+
+.Article-Picture > img {
+  display: block;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Article-PictureContainer {
+  position: relative;
+}
+
+.Article-PictureChannel {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+  color: #fff;
+  font-size: .9rem;
+}

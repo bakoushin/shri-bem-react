@@ -1,0 +1,20 @@
+@media screen and (min-width: 780px) {
+
+  .Article-Text_size_large {
+    grid-column: span 2;
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 42px;
+    height: initial;
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Article-Text_size_large {
+    height: 7rem;
+  }
+  
+}

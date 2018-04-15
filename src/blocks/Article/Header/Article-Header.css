@@ -1,0 +1,23 @@
+.Article-HeaderWrapper {
+  background: #fff;
+  padding-bottom: .57rem;
+}
+
+.Article-HeaderContainer {
+  position: relative;
+  max-height: 54px;
+  z-index: 2;
+}
+
+.Article-HeaderText {
+  font-family: 'YS Text', sans-serif;
+  font-size: 1.36rem;
+  line-height: 1.25;
+  margin: 0;
+  max-height: 5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

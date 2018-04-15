@@ -1,0 +1,8 @@
+@media screen and (min-width: 580px) {
+
+  .Article_type_medium {
+    grid-column: span 3;
+    height: 306px;
+  }
+
+}

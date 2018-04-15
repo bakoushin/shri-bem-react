@@ -1,5 +1,11 @@
+html {
+  line-height: 1.45;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  display: grid;
+  justify-content: center;
+  font-family: "YS Text", sans-serif;
+  color: #000;
+  margin: 0 16px;
 }

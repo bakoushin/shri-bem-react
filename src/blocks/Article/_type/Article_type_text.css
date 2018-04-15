@@ -1,0 +1,4 @@
+.Article_type_text {
+  display: flex;
+  flex-direction: column;
+}
