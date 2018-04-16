@@ -20,11 +20,3 @@
   position: relative;
 }
 
-.Article-PictureChannel {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin: 10px;
-  color: #fff;
-  font-size: .9rem;
-}
