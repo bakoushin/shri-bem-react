@@ -1,3 +1,4 @@
+import React from 'react';
 import {decl} from 'bem-react-core';
 
 import 'b:Button';
@@ -10,12 +11,8 @@ import 'm:type=text';
 export default decl({
   block: 'Article',
   elem: 'ButtonActions',
-  tag: 'button',
-  mix() {
-    return {
-      block: 'Button',
-      mods: {type: 'actions'}
-    };
+  replace() {
+    return <Button mix={{block: 'Article', elem: 'ButtonActions'}}/>;
   },
   mods({type}) {
     return {...this.__base(...arguments), type};
